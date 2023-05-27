@@ -65,11 +65,11 @@ static const char unknown_str[] = "n/a";
  */
 static const struct arg args[] = {
 	/* function format          argument */
-	{ netspeed_rx, "ﯲ %8s ",    "enp0s31f6" },
-	{ netspeed_tx, "ﯴ %8s ",    "enp0s31f6" },
+	{ netspeed_rx, "󰛴 %8s ",    "enp0s31f6" },
+	{ netspeed_tx, "󰛶 %8s ",    "enp0s31f6" },
 	{ cpu_perc, " %2s%% ",     NULL },
 	{ ram_perc, " %2s%% ",     NULL },
 	{ run_command, " %s ",     "amixer sget Master | grep 'Right:' | awk -F'[][]' '{ print $2 }'"}, 
-	{ datetime, "%s ",          " %a, %b %d %H:%M" },
+	{ datetime, "%s ",          "󰃰 %a, %b %d %H:%M" },
 
 };
